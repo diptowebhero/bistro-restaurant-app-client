@@ -60,7 +60,7 @@ const Categories = () => {
           grabCursor={true}
           centeredSlides={true}
           loop={true}
-          autoplay={{ delay: 2000, disableOnInteraction: true }}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
           slidesPerView={"auto"}
           modules={[Autoplay]}
           coverflowEffect={{

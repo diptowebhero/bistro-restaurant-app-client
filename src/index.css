@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  @apply max-w-[1320px] mx-auto px-10 lg:px-20 md:px-16;
+}
+
 .activeStyle {
   color: #eeff25 !important;
 }
