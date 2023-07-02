@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <>
       <footer className="flex items-center justify-between w-full h-[350px]">
         <div className="bg-neutral flex items-center flex-col justify-center text-white text-center w-1/2 h-full">
           <h3 className="text-2xl font-semibold">CONTACT US</h3>
@@ -76,7 +76,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
