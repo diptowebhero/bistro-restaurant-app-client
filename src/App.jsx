@@ -1,7 +1,10 @@
+import {RouterProvider} from "react-router-dom";
+import routes from "./Routes/Routes.jsx";
+
 function App() {
   return (
     <>
-      <h1 className="min-h-screen flex items-center justify-center text-purple-500 font-bold text-5xl">Welcome to Bistro Boss Restaurant</h1>
+      <RouterProvider router={routes}/>
     </>
   );
 }

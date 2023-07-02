@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.activeStyle {
+  color: #eeff25 !important;
+}
